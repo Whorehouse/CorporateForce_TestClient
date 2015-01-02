@@ -20,6 +20,7 @@ import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 @Entity
 @Table(name = "profiles", catalog = "corporateforce")
 @JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})  
+
 public class Profiles implements java.io.Serializable {
 
 	/**
